@@ -1,0 +1,252 @@
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    margin-top:6vw;
+    overflow: hidden;
+}
+
+
+header{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo{
+    width: 60px;
+    margin: 20px;
+    position: relative;
+    left: 10px;
+    
+    
+}
+
+h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+    
+}
+
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background{
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    z-index: -10;
+    position: relative;
+    top: 228px;
+    left:85px;
+    
+   
+}
+
+ .contenidor {
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+  position: relative;
+  perspective: 400px;
+      
+     
+}
+
+#cub {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+   
+   
+}
+
+#cub figure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 3px solid white;
+}
+
+#cub .posterior {
+background-color:#3d57ff;
+    opacity: 0.8;
+    transform: rotateX(0deg) translateZ(-75px);
+}
+
+#cub .esquerra {
+background-color:#ff3d3d ; 
+    opacity: 0.8;
+    transform: rotateY(90deg) translateZ(-75px);
+}
+
+#cub .inferior {
+background-color:#ff3da9 ; 
+    opacity: 0.8;
+    transform: rotateX(90deg) translateZ(-75px);
+}
+
+#cub .anterior {
+background-color:#ecff3d;
+    opacity:0.8 ;
+    transform: rotateX(0deg) translateZ(75px);
+}
+
+#cub .dreta {
+background-color:#5fff3d;
+    opacity: 0.8;
+    transform: rotateY(90deg) translateZ(75px);
+}
+
+#cub .superior {
+  background-color:#3dfff4;
+    opacity: 0.8 ;
+  transform: rotateX(90deg) translateZ(75px);
+}
+
+.botons {
+  width: 150px;
+  
+  margin: 0 auto;
+  position: relative;
+ }
+
+.boto {
+  /*estructura*/
+  width: 30px;
+  height: 30px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  position: absolute;
+  /*texto*/ 
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  user-select: none;
+    margin-top: 40px;
+   
+}
+
+#nord {
+    left: 60px;
+}
+
+#sud {
+  left: 60px;
+    top: 50px;
+}
+
+#oest {
+  
+ left: 100px;
+    top: 25px
+}
+
+#est {
+ left: 20px;
+      top: 25px;
+  
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+.slider{
+    width: 150px;
+    cursor:pointer;
+    position: relative;
+    transform: rotate(90deg);
+    left: 140px;
+    top: -305px;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+ 
+    
+    
+}
+
+
+#myRange{
+   left: 120px; 
+        top: -130px
+}
+
+
+
+.botoMusica {
+   
+    opacity: 0.85;
+   z-index: 100;
+    width: 110px; 
+    cursor: pointer;
+    mix-blend-mode: multiply;
+  
+    
+}
+
+
+
+.video{
+    display: flex;
+    justify-content: center;
+     position: relative; 
+    top: -300px;
+    height: 307px;
+    pointer-events: none;
+
+ 
+   
+    
+}
+
+
+
+#videoa{
+    z-index: -30;
+     left: 100px;
+       width: 35vh;
+    position: relative;
+        
+}
+
+
+ 
+
+
+   
+    
+    
+
+
+
+
+
+
